@@ -2,6 +2,6 @@ package service
 
 import "week02/dao"
 
-func Query() (dao.Result, error) {
+func Query() (dao.User, error) {
 	return dao.Query()
 }
